@@ -1,6 +1,6 @@
 pipeline {
            agent {
-                   label "rup-slave"
+                   label "jenkins-file"
            }
            stages {
                   stage ( "pull the code from github" ) {
