@@ -3,7 +3,7 @@ pipeline {
                    label "jenkins-file"
            }
            stages {
-                  stage ( "pull the code from github" ) {
+                  stage ( " pull the code from github " ) {
                           steps {
                                  git branch: 'main', url: 'https://github.com/devops-rups/jenkinsfile.git'
                          }
