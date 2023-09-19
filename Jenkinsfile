@@ -3,8 +3,8 @@ pipeline {
                    label "rup-slave"
            }
            stages {
-                 stage ( "pull the code from github" ) {
-                         steps {
+                  stage ( "pull the code from github" ) {
+                          steps {
                                  git branch: 'main', url: 'https://github.com/devops-rups/jenkinsfile.git'
                          }
                 }
