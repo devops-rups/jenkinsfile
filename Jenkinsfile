@@ -51,5 +51,13 @@ pipeline {
 
                         }
                 }
+		stage ( " prod even" ) {
+		        steps {
+			        sshagent(['ubuntu']) {
+			    	 	sh "ssh -o StrictHostKeyChecking=no ubuntu@13.53.182.192 sudo docker run  -d  -p  49153:8080  rupalikhatri/new-java-app:$BUILD_TAG"
+				}
+
+			}
+		}
           }
 }          
