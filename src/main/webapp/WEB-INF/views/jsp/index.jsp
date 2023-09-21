@@ -40,7 +40,7 @@
 
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Welcome to DevOpswithSR, India , in fully automated jenkins</h2>
+			<h2>Welcome to DevOpswith rupali khatri, India , in fully automated jenkins</h2>
 			<h3>Contact training@srdevops.com or mob 9887764601</h3>
 		</div>	
 	</div>
